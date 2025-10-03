@@ -1,15 +1,47 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
-.h1 {
-  font-family: "Times New Roman", Times, serif;
-}
 .calculator {
-  display: ;
+  width: 250px;
+  margin: 40px auto;
+  padding: 15px;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
+
 .display {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: right;
+  margin-bottom: 10px;
 }
+
 .botones {
-  display: ;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+button {
+  padding: 12px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background: #e0e0e0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d0d0d0;
+}
+
+.Boton {
+  background: #ff6666;
+  color: white;
+}
+
+.Btnigual {
+  background: #4caf50;
+  color: white;
+  grid-column: span 2;
 }
